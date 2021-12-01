@@ -1,0 +1,13 @@
+//file sass sẽ biên dịch cả 2 class .  backgroundImg và .cover (kế thừa từ .backgroundImg) ra file css
+// .backgroundImg{
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+//%backgroundImg gọi là placeholder, placeholder do sass thiết kế ra và nó ko được biên dịch ra file css
+%backgroundImg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
